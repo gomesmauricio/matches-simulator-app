@@ -24,7 +24,8 @@
         <activity
             android:name=".ui.DetailActivity"
             android:exported="false"
-            android:theme="@style/Theme.Simulator.NoActionBar" />
+            android:theme="@style/Theme.Simulator.NoActionBar"
+            android:parentActivityName=".ui.MainActivity"/> <!-- faz com que o botao de voltar na tela volte para a main  -->
 
     </application>
 
